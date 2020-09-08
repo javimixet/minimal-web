@@ -96,12 +96,12 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      repository  : javimixet/minimal-web
       comments:
-        provider: "facebook"
-        facebook:
-          appid: # optional
-          num_posts: # 5 (default)
-          colorscheme: # "light" (default), "dark"
+        provider  : "staticman_v2"
+        staticman:
+          branch    : "master"
+          endpoint  : https://api.staticman.net/v3/entry/github/javimixet/minimal-web/gh-pages/comments
       share: true
       related: true
   # _pages
