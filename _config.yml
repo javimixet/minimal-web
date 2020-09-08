@@ -100,7 +100,7 @@ defaults:
       comments:
         provider  : "staticman_v2"
         staticman:
-          branch    : "master"
+          branch    : "gh-pages"
           endpoint  : https://api.staticman.net/v3/entry/github/javimixet/minimal-web/gh-pages/comments
       share: true
       related: true
